@@ -1,7 +1,9 @@
-
-  
-  /* # id
+/* # id
   . class */
+  
+  /* body {
+    background-color: gray;
+  } */
 
   .navbar 
   .navbar-brand {
@@ -14,8 +16,9 @@
 
   #plot1 {
     color: pink;
-    font-size: 30px;
   }
+
+  #cards {background-color:  grey;}
 
 
 
