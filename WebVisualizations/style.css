@@ -29,7 +29,19 @@ h1 {
   /* # id
   . class */
 
-  .navbar .navbar-brand {
+  .navbar 
+  .navbar-brand {
       background: teal;
   }
+
+  #dropdown01 {
+    color: pink;
+  }
+
+  #plot1 {
+    color: pink;
+  }
+
+
+
 
