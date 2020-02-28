@@ -9,7 +9,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body style="background: lightgoldenrodyellow;">
+<body style="background-color: lightgoldenrodyellow;">
 
   <nav class="navbar navbar-expand-md navbar-darK bg-dark mb-4">
     <a class="navbar-brand p-2 border" href="index.html">LATITUDE</a>
@@ -39,47 +39,57 @@
   </nav>
 
   <!-- VALLIE CONTENT -->
-  <div class="container">
+  <div class="container border" style="background-color:white;">
     <div class="row">
-      <div class="col border">
-        <h1>Comparison: Latitude vs X</h1>
+      <div class="box">
+        <h3 class="title">Comparison: Latitude vs X</h3>
         <hr class="my-4">
         <p>Click any plot to get an in-depth analysis.</p>
-      </div>
-    </div>
 
-    <div class="row text-center">
-      <div class="col border">
-        <h4>vs. Max Temperature</h4>
-        <a class="temp-link" href="temp.html">
-          <img src="./Images/Temp_v_Latitude.png" href="temp.html" id="temp-image" alt="Temp image">
-        </a>
-      </div>
-      <div class="col border">
-        <h4>vs. Humidity</h4>
-        <a class="humidity-link" href="humidity.html">
-          <img src="./Images/Humidity_v_Latitude.png" alt="Humidity Image">
-        </a>
-      </div>
-    </div>
+        <div class="container border" style="padding-bottom: 40px;">
+          <div class="row">
+            <div class="col" style="padding: 30px;">
+              <div class="title">vs. Max Temperature</div>
+              <a href="temp.html">
+                <img class="panel" src="./Images/Temp_v_Latitude.png" alt="Temp image">
+              </a>
+            </div>
+            <div class="col" style="padding: 30px;">
+              <div class="title">vs. Humidity</div>
+              <a href="humidity.html">
+                <img class="panel" src="./Images/Humidity_v_Latitude.png" alt="Humidity Image">
+              </a>
+            </div>
+          </div>
 
-    <div class="row text-center">
-      <div class="col border">
-        <h4>vs. Cloudiness</h4>
-        <a class="cloudiness-link" href="cloudiness.html">
-          <img src="./Images/Cloudiness_v_Latitude.png" alt="Cloudiness Image">
-        </a>
-      </div>
-      <div class="col border">
-        <h4>vs. Windiness</h4>
-        <a class="wind-link" href="wind.html">
-          <img src="./Images/Wind_Speed_v_Latitude.png" alt="Wind Imge">
-        </a>
+        <!-- ---below div corresponds to container div line 49 -->
+        </div>
+
+        <!-- ---This is how Christain had it, container only around above row--- -->
+        <div class="container">
+          <div class="row">
+            <div class="col" style="padding: 30px;">
+              <div class="title">vs. Cloudiness</div>
+              <a href="cloudiness.html">
+                <img class="panel" src="./Images/Cloudiness_v_Latitude.png" alt="Cloudiness Image">
+              </a>
+            </div>
+            <div class="col" style="padding: 30px;">
+              <div class="title">vs. Wind Speed</div>
+              <a href="wind.html">
+                <img class="panel" src="./Images/Wind_Speed_v_Latitude.png" alt="Wind Speed Image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+
       </div>
     </div>
-    
-  
   </div>
+
   <!-- END VALLIE CONTENT -->
 
  
@@ -169,6 +179,11 @@
     </div>
   </div> -->
   <!-- CHRISTIAN END   -->
+
+
+ 
+
+
 
 
 
