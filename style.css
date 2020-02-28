@@ -1,28 +1,20 @@
-/* # id
-  . class */
-  
-  /* body {
-    background-color: gray;
-  } */
+/* # id 
+.class */
 
- 
-  
-  
-  .navbar 
-  .navbar-brand {
-      background: teal;
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+
+/* Create border when hovering over image */
+.active, .panel:hover{
+  border-color:#0BADA6;
+  border-style: solid; 
   }
 
-  #dropdown01 {
-    color: pink;
-  }
-
-  #plot1 {
-    color: pink;
-  }
-
-  #cards {background-color:  grey;}
 
 
-
+  
 
