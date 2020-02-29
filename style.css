@@ -2,13 +2,14 @@
 .class */
 
 
-/* Images */
+/* Images
+In Bootstrap, class="w-100 h-100" another option */
 img{
   width:100% !important;
   height:100% !important;
 }
 
-/* Create border when hovering over image */
+/* Create border when hovering over images */
 .active, .panel:hover{
   border-color:#0BADA6;
   border-style: solid; 
