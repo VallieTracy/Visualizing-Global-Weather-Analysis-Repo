@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Web-Design_Challenge</title>
+  <title>Web-Design-Challenge</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -11,32 +11,35 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-darK bg-dark mb-4">
-    <a class="navbar-brand p-2 border">LATITUDE</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Plots</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="temp.html" id="plot1">Temperature</a>
-            <a class="dropdown-item" href="cloudiness.html" id="plot2">Cloudiness</a>
-            <a class="dropdown-item" href="humidity.html" id="plot3">Humidity</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="comparison.html">Comparison<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand style="background-color: #0BAD6; href="index.html">LATITUDE</a>
+      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropDown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <!-- Content Section -->
   <div class="container">
@@ -47,7 +50,7 @@
         <div class="box">
           <h3 class="title">Summary: Latitude vs. X</h3>
           <hr class="my-4">
-          <img class="visualizations float-left" src="Images/Temp_v_Latitude.png">
+          <img class="float-left" src="Images/Temp_v_Latitude.png">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis
              fugit recusandae unde modi corrupti porro esse itaque odit. Sed, culpa. Eveniet 
              nemo mollitia omnis possimus saepe iste quae nam.   Lorem ipsum dolor sit amet 
@@ -82,13 +85,13 @@
             </div>
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
-                <a href="temp.html">
-                  <img class="panel" src="Images/Temp_v_Latitude.png" alt="Temp Graph">
+                <a href="cloudiness.html">
+                  <img class="panel" src="Images/Cloudiness_v_Latitude.png" alt="Cloudiness Graph">
                 </a>
               </div>
               <div class="col-6">
-                <a href="humidity.html">
-                  <img class="panel" src="Images/Humidity_v_Latitude.png" alt="Humidity Graph">
+                <a href="wind.html">
+                  <img class="panel" src="Images/Wind_Speed_v_Latitude.png" alt="Wind Speed Graph">
                 </a>
               </div>
             </div>
@@ -107,66 +110,10 @@
   
   
   
-  <!-- <div class="container-fluid">
-
-    <div class="row">
-      <div class="col-lg-8 border m-2 p-5">
-        <h1>Summary: Latitude vs. X</h1>
-        <hr class="my-4">
-        <img src="Images/Temp_v_Latitude.png" alt="Temp image">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae velit doloribus eveniet inventore quas. Velit assumenda officiis corporis placeat ipsam harum! Asperiores eligendi officiis voluptates hic odio blanditiis tenetur eos tempora vero ad eum repudiandae harum quasi quos, nam, distinctio labore molestias. Neque, deleniti corrupti similique quo incidunt excepturi culpa!</p>
-      </div>
-
-      <div class="col-lg-4 border m-n2 p-5">
-        <h1>Visualizations</h1>
-
-        <div class="row">
-          <div class="col-lg-6 border mt-5">
-            <img src="./Images/Temp_v_Latitude.png" alt="Temp image" class="img-fluid">
-            <img src="./Images/Cloudiness_v_Latitude.png" alt="Cloudiness Image" class="img-fluid">
-          </div>
-          <div class="col-lg-6 border mt-3">
-            <img src="./Images/Humidity_v_Latitude.png" alt="Humidity Image" class="img-fluid">
-            <img src="./Images/Wind_Speed_v_Latitude.png" alt="Wind Imge" class="img-fluid">
-          </div>
-        </div>
-
-      </div> -->
-     
-      
-    <!-- </div>
-  </div>
-
-  
-      <div class="col-lg-12 border">
-        <h1>Comparison: Latitude vs X</h1>
-        <hr class="my-4">
-        <p>Click any plot to get an in-depth analysis.</p>
-      </div>    
-      
-      <div class="col-lg-6 text-center pt-4 border">
-        <h4>vs. Max Temperature</h4>
-        <a class="temp-link" href="temp.html">
-        <img src="./Images/Temp_v_Latitude.png" href="temp.html" id="temp-image" alt="Temp image">
-        </a>
-        <h4>vs. Cloudiness</h4>
-        <a class="cloudiness-link" href="cloudiness.html">
-        <img src="./Images/Cloudiness_v_Latitude.png" alt="Cloudiness Image">
-        </a>
-      <div>
-
-      <div class="col-lg-6 text-center">
-        <h4>vs. Humidity</h4>
-        <a class="humidity-link" href="humidity.html">
-        <img src="./Images/Humidity_v_Latitude.png" alt="Humidity Image">
-        </a>
-        <h4>vs. Windiness</h4>
-        <a class="wind-link" href="wind.html">
-        <img src="./Images/Wind_Speed_v_Latitude.png" alt="Wind Imge">
-        </a>
-      </div>
-   -->
-   
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer">Copyright &copy; Vallie Tracy 2020</div>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
