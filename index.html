@@ -9,8 +9,10 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
+  
 <body>
-
+  
+  <!-- Navbar Section -->
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">LATITUDE</a>
@@ -50,7 +52,9 @@
         <div class="box">
           <h3 class="title">Summary: Latitude vs. X</h3>
           <hr class="my-4">
-          <img class="visualization rounded float-left" src="Images/Temp_v_Latitude.png">
+          <!-- 'Float-left' to allow for text wrap around image
+          Don't add 'panel' class so as not to resize image -->
+          <img class="float-left" src="Images/Temp_v_Latitude.png">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis
              fugit recusandae unde modi corrupti porro esse itaque odit. Sed, culpa. Eveniet 
              nemo mollitia omnis possimus saepe iste quae nam.   Lorem ipsum dolor sit amet 
@@ -71,27 +75,29 @@
           <h3 class="title">Visualizations</h3>
           <hr class="my-4">
           <div class="container">
+            <!-- 'First' Row -->
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="temp.html">
-                  <img class="panel" src="Images/Temp_v_Latitude.png" alt="Temp Graph">
+                  <img class="panel panel-viz" src="Images/Temp_v_Latitude.png" alt="Temp Graph">
                 </a>
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img class="panel" src="Images/Humidity_v_Latitude.png" alt="Humidity Graph">
+                  <img class="panel panel-viz" src="Images/Humidity_v_Latitude.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
+            <!-- 'Second' Row -->
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
                 <a href="cloudiness.html">
-                  <img class="panel" src="Images/Cloudiness_v_Latitude.png" alt="Cloudiness Graph">
+                  <img class="panel panel-viz" src="Images/Cloudiness_v_Latitude.png" alt="Cloudiness Graph">
                 </a>
               </div>
               <div class="col-6">
                 <a href="wind.html">
-                  <img class="panel" src="Images/Wind_Speed_v_Latitude.png" alt="Wind Speed Graph">
+                  <img class="panel panel-viz" src="Images/Wind_Speed_v_Latitude.png" alt="Wind Speed Graph">
                 </a>
               </div>
             </div>
