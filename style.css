@@ -9,11 +9,10 @@
 }
 
 .navigation .navbar-brand {
-  color: pink; 
   margin-left: 30px; 
-  padding: inherit; 
-  background-color: purple;
-}
+  padding: inherit;
+  background-color: #0BADA6;
+  }
 
 .navbar {
   background-color: white; 
@@ -28,8 +27,7 @@
   color: rgb(8, 40, 109) !important; 
 }
 
-.dropdown .dropdown-menu .dropdown-item:active, 
-.dropdown .dropdown-menu .dropdown-item:hover {
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
   background-color:rgb(214, 205, 205) !important; 
 }
 
@@ -56,7 +54,13 @@ Added 'panel-viz' class for images where I want user interaction with image */
   border-style: solid; 
 }
 
-/* Title Class  */
+/* Alters image size for landing page summary box  */
+.vizualization{
+  width:50% !important;
+  height:50% !important;
+}
+
+/* TITLE CLASS  */
 .title {
   color: #0BADA6;  
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -64,23 +68,23 @@ Added 'panel-viz' class for images where I want user interaction with image */
   padding-top: 25px; 
 }
 
-/* Paragraph Element */
+/* PARAGRAPH ELEMENTS */
 p {
   color: #6D8092;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px; 
  }
 
- /* Box Class */
+ /* BOX CLASS */
 .box {
-  margin-top: 60px; 
+  margin-top: 60px;
   margin-bottom: 62px; 
   padding: 10px 20px 15px; 
   background-color: white; 
 }
 
-/* Footer */
-footer{
+/* FOOTER */
+footer {
 background-color: #666666; 
 border-top-style: solid; 
 border-top-width: 5px; 
@@ -97,34 +101,31 @@ width: 100%;
 padding-top: 15px; 
 }
 
-/* Media Queries */
-@media(max-width: 992px){
-  .navbar-expand-lg{
+/* MEDIA QUERIES */
+/* Set the parameters up until screen size 'large' is reached */
+@media(max-width: 992px) {
+  /* Navbar background color */
+  .navbar-expand-lg {
   background-color: #0BADA6 !important;
   }
-  .navbar{
+  
+  /* Want to keep height & padding consistent */
+  .navbar {
       max-height: none; 
       padding: inherit;
   }
-  .navbar div{
+  /* Dropdown box */
+  .navbar div {
       margin: inherit; 
       background-color: white;  
   }
-  .navbar-brand{
-      padding: 10px !important; 
+  .navbar-brand {
+      padding: 20px !important; 
   }
   
-  button{
-      margin-right: 30px; 
+  /* Change size of graph titles on Comparisons Page */
+  .comp_titles {font-size: 30px;}
   }
-  button:focus {
-  
-      outline: 1px dotted;
-      outline: 5px auto -webkit-focusring-color;
-      
-      }
-  }
-  © 2020 GitHub, Inc.
 
 
   
