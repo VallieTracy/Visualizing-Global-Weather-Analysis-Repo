@@ -113,12 +113,12 @@ Large screen:
 ![visualize page large screen](Images/visualize-lg.png)
 
 Small screen:
-![visualize page small screen](Images/visualize-sm.png)
+![visualize page small screen](Images/11-Web_Homework_Instructions_Images_visualize-sm.png)
 
 #### Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![Images/11-Web_Homework_Instructions_Images_nav-lg.png](Images/11-Web_Homework_Instructions_Images_nav-lg.png)
 
 Small screen:
 ![Images/11-Web_Homework_Instructions_Images_nav-sm.png](Images/11-Web_Homework_Instructions_Images_nav-sm.png)
