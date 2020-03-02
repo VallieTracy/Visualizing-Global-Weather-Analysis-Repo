@@ -4,7 +4,7 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Graphs/11-Web_Homework_Instructions_Images_landing-sm.png](Graphs/11-Web_Homework_Instructions_Images_landing-sm.png)
+![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
 ### Before You Begin
 
@@ -83,34 +83,34 @@ This section contains screenshots of each page that must be built, at varying sc
 #### Landing page
 
 Large screen:
-![Landing page large screen](Images/landing-lg.png)
+![Landing page large screen](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
 Small screen:
-![Landing page small screen](Images/landing-sm.png)
+![Landing page small screen](Images/11-Web_Homework_Instructions_Images_landing-sm.png)
 ￼
 
 #### Comparisons page
 
 Large screen:
-![comparison page large screen](Images/comparison-lg.png)
+![comparison page large screen](Images/11-Web_Homework_Instructions_Images_comparison-lg.png)
 
 Small screen:
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](Images/11-Web_Homework_Instructions_Images_comparison-sm.png)
 
 #### Data page
 
 Large screen:
-![data page large screen](Images/data-lg.png)
+![data page large screen](Images/11-Web_Homework_Instructions_Images_data-lg.png)
 
 Small screen:
-![data page small screen](Images/data-sm.png)
+![data page small screen](Images/11-Web_Homework_Instructions_Images_data-sm.png)
 
 #### Visualization pages
 
 You'll build four of these, one for each visualization. Here's an example of one:
 
 Large screen:
-![visualize page large screen](Images/visualize-lg.png)
+![visualize page large screen](Images/11-Web_Homework_Instructions_Images_visualize-lg.png)
 
 Small screen:
 ![visualize page small screen](Images/11-Web_Homework_Instructions_Images_visualize-sm.png)
@@ -118,10 +118,10 @@ Small screen:
 #### Navigation menu
 
 Large screen:
-![Images/11-Web_Homework_Instructions_Images_nav-lg.png](Images/11-Web_Homework_Instructions_Images_nav-lg.png)
+![nav menu large screen](Images/11-Web_Homework_Instructions_Images_nav-lg.png)
 
 Small screen:
-![Images/11-Web_Homework_Instructions_Images_nav-sm.png](Images/11-Web_Homework_Instructions_Images_nav-sm.png)
+![nav menu small screen](Images/11-Web_Homework_Instructions_Images_nav-sm.png)
 
 ### Copyright
 
