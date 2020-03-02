@@ -1,28 +1,22 @@
-/* # id 
-.class */
-
-
-
 /* NAVBAR */
 .navbar {
   max-height: 57px; 
 }
 
+/* Styling for Navbar Latitude button */
 .navigation .navbar-brand {
   margin-left: 30px; 
-  padding: inherit;
+  padding: 8px;
   background-color: #0BADA6;
   }
 
+/* Background color of Navbar & fonts */
 .navbar {
   background-color: white; 
   font-size: 15px; 
 }
 
-.active, .dropdown-menu .dropdown-item:active a:hover {
-  background-color:#E7E7E7!important; 
-}
-
+/* Items in dropdown menu */
 .dropdown-item {
   color: rgb(8, 40, 109) !important; 
 }
@@ -31,13 +25,12 @@
   background-color:rgb(214, 205, 205) !important; 
 }
 
+/* User-hover over right side Navbar links */
 .nav-link:hover {
   background-color:rgb(243, 242, 242) !important;
- }
+}
 
- .navbar-brand:hover {
-  color: white !important;
-  }
+
 
 /* IMAGES
 All images have 'panel' class except summary image on landing page
@@ -48,7 +41,7 @@ img.panel {
 }
 
 /* Class 'active' keeps fixed border for visualization pages
-Added 'panel-viz' class for images where I want user interaction with image */
+Added 'panel-viz' class for images where I want user interaction (hovering) with image */
 .active, .panel-viz:hover {
   border-color:#0BADA6;
   border-style: solid; 

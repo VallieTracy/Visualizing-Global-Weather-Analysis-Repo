@@ -15,7 +15,7 @@
   <!-- Navbar Section -->
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">LATITUDE</a>
+      <a class="navbar-brand" href="index.html">LATITUDE</a>
       <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,15 +55,14 @@
           <!-- 'Float-left' to allow for text wrap around image
           Don't add 'panel' class so as not to resize image -->
           <img class="vizualization rounded float-left" src="Images/Temp_v_Latitude.png">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis
-             fugit recusandae unde modi corrupti porro esse itaque odit. Sed, culpa. Eveniet 
-             nemo mollitia omnis possimus saepe iste quae nam.   Lorem ipsum dolor sit amet 
-             consectetur, adipisicing elit. Nisi fugit, architecto quasi mollitia rerum vitae 
-             pariatur enim atque quis iure soluta optio aliquam, ducimus tempore commodi alias 
-             voluptatem. Hic, deleniti?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore sapiente, 
-             aspernatur consectetur provident doloribus quisquam nihil at hic ad, beatae sit, 
-             reprehenderit cupiditate. Eos dolorum beatae saepe soluta natus.</p>
+          <p>For this project, I wanted to answer the question of how weather varies in relation to
+             distance from the equator.  To accomplish this, I analyzed 500+ cities from across the 
+             globe to build a representative global weather model. I utilized a simple Python library
+             & the OpenWeatherMap API.</p>
+          <p>I focused on how latitude relates to: Max Temperature, Humidity, Cloudiness, & Wind Speed. 
+             I ulitmately found that there does appear to be a strong correlation between max temperature and latitude.
+             There doesn't appear to be a strong correlation between latitude and humidity, cloudiness, or wind speed. 
+             And max temp looks to decrease as we move away from the equator, both north and south.</p>
         </div>
 
       </div>
@@ -75,26 +74,32 @@
           <h3 class="title">Visualizations</h3>
           <hr class="my-4">
           <div class="container">
+            
             <!-- 'First' Row -->
             <div class="row" style="padding-bottom: 30px;">
+              <!-- 'First' column -->
               <div class="col-6">
                 <a href="temp.html">
                   <img class="panel panel-viz" src="Images/Temp_v_Latitude.png" alt="Temp Graph">
                 </a>
               </div>
+              <!-- 'Second' column -->
               <div class="col-6">
                 <a href="humidity.html">
                   <img class="panel panel-viz" src="Images/Humidity_v_Latitude.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
+            
             <!-- 'Second' Row -->
             <div class="row" style="padding-bottom: 30px;">
+              <!-- 'First' column -->
               <div class="col-6">
                 <a href="cloudiness.html">
                   <img class="panel panel-viz" src="Images/Cloudiness_v_Latitude.png" alt="Cloudiness Graph">
                 </a>
               </div>
+              <!-- 'Second' column -->
               <div class="col-6">
                 <a href="wind.html">
                   <img class="panel panel-viz" src="Images/Wind_Speed_v_Latitude.png" alt="Wind Speed Graph">
@@ -103,7 +108,6 @@
             </div>
           </div>
         </div>
-
       </div>
     
     </div>
