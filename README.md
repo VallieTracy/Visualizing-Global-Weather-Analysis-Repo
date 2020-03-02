@@ -121,7 +121,7 @@ Large screen:
 ![nav menu large screen](Images/nav-lg.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](SetupReadMeImages/nav-sm.png)
 
 ### Copyright
 
