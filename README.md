@@ -7,25 +7,16 @@ https://vallietracy.github.io/Web-Design-Challenge/
 
 This is a continuation of my previous repo [`Global-Weather-Analysis`](https://github.com/VallieTracy/Global-Weather-Analysis).  In that repo, I gathered weather data for 600+ cities across the globe.  I looked specifically at Temperature, Cloudiness, Humidity, and Wind Speed.  I then performed linear regressions on the data, whose csv is in the `Resources` Folder of this repo, located at the root level.
 
+
+
 ## Objectives
 
-In this repo, my goal was to create a seven-page dashboard that visualized the data thru graphs and written observation.
+In this repo, my goal was to visualize how weather patterns change with latitude thru graphs and written observation. 
 
 ![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
-### Before You Begin
 
-1. Create a new repository for this project called `Web-Design-Challenge`. **Do not add this homework to an existing repository**.
 
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the web challenge. Use a folder name to correspond to the challenge: **WebVisualizations**.
-
-4. Add your **html** files to this folder as well as your **assets**, **Resources** and **visualizations** folders.
-
-5. Push the above changes to GitHub or GitLab.
-
-6. Deploy to GitHub pages. 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
