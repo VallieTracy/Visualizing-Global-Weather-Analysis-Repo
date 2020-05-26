@@ -14,7 +14,8 @@ In this repo, my goal was to visualize how weather patterns change with latitude
 
 
 
-![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
+![Images/landingResize.png](Images/Data_Table.PNG)
+![Images/landingResize.png](Images/HomePage.PNG)
 
 
 
