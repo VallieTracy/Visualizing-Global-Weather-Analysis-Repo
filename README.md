@@ -1,12 +1,12 @@
 # A Webpage Visualization of Global Weather Patterns
-*A continuation of a [previous repo](https://github.com/VallieTracy/Global-Weather-Analysis-plus-Vacation).*
+*A continuation of a [previous repo](https://github.com/VallieTracy/Global-Weather-Analysis).*
 
 #### *Finished Website:* 
 https://vallietracy.github.io/Web-Design-Challenge/
 
 ## Background
 
-Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
+In my previous repo `Global-Weather-Analysis`, I first created a csv file of weather patterns for 600+ cities across the globe. I then performed linear regressions on the data, looking at Temperature, Cloudiness, Humidity, & Wind Speed, across both the Northern and Southern Hemispheres.
 
 ![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
