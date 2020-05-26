@@ -1,4 +1,5 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# A Webpage Visualization of Global Weather Patterns
+*A continuation of a [previous repo](https://github.com/VallieTracy/Global-Weather-Analysis-plus-Vacation).*
 
 ## Finished Website: 
 https://vallietracy.github.io/Web-Design-Challenge/
