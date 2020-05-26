@@ -9,13 +9,8 @@ This is a continuation of my previous repo [`Global-Weather-Analysis`](https://g
 
 In this repo, my goal was to visualize how weather patterns change with latitude thru graphs and written observation. 
 
+![Data_Table](Images/Data_Table.PNG)
 
-
-
-
-
-![Images/landingResize.png](Images/Data_Table.PNG)
-![Images/landingResize.png](Images/HomePage.PNG)
 
 
 
