@@ -6,7 +6,11 @@ https://vallietracy.github.io/Web-Design-Challenge/
 
 ## Background
 
-In my previous repo `Global-Weather-Analysis`, I first created a csv file of weather patterns for 600+ cities across the globe. I then performed linear regressions on the data, looking at Temperature, Cloudiness, Humidity, & Wind Speed, across both the Northern and Southern Hemispheres.
+In my previous repo `Global-Weather-Analysis`, I created a csv file of weather patterns for 600+ cities across the globe. I then performed linear regressions on the data, looking at Temperature, Cloudiness, Humidity, & Wind Speed, across both the Northern and Southern Hemispheres.
+
+## Objectives
+
+In this repo, my goal was to create a seven-page dashboard that visualized the data thru graphs and written observation.
 
 ![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
