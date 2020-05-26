@@ -7,11 +7,12 @@ https://vallietracy.github.io/Web-Design-Challenge/
 
 This is a continuation of my previous repo [`Global-Weather-Analysis`](https://github.com/VallieTracy/Global-Weather-Analysis).  In that repo, I gathered weather data for 600+ cities across the globe.  I looked specifically at Temperature, Cloudiness, Humidity, and Wind Speed.  I then performed linear regressions on the data, whose csv is in the `Resources` Folder of this repo, located at the root level.
 
-
-
-## Objectives
-
 In this repo, my goal was to visualize how weather patterns change with latitude thru graphs and written observation. 
+
+
+
+
+
 
 ![Images/landingResize.png](Images/11-Web_Homework_Instructions_Images_landing-lg.png)
 
