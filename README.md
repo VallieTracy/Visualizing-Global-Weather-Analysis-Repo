@@ -2,7 +2,7 @@
 # A Webpage Visualization of Global Weather Patterns
 
 #### *Finished Website:* 
-https://vallietracy.github.io/Web-Design-Challenge/                
+https://vallietracy.github.io/Visualizing-Global-Weather-Analysis-Repo/               
 
 
 ## Background
